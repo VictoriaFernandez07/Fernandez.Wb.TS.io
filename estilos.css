@@ -1,0 +1,261 @@
+/* Estilos específicos para index.html*/
+@font-face{ 
+    font-family: 'Rubik', sans-serif;
+    src: url('https://fonts.googleapis.com/css2? family= Rubik & display=swap');
+} 
+
+/*Imagen-fondo*/
+
+body{
+    background-image: url("Imágenes/Imagen-Fondo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*Logo-Toy-Story*/
+
+.Logo-Toy-Story{
+    text-align: center;
+    margin-top: 15;
+}
+.Logo-Toy-Story{
+    width: 100px;
+    height: 100px;
+    transition: width 2s, height 2s, transform 2s;
+    }
+      
+.Logo-Toy-Story:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
+
+/*Imagen-fondo-navbar*/
+
+.navbar{
+    background-image: url("Imágenes/Imagen-Fondo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.secciones{
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 30px;
+    margin-right: 200px;
+    margin-top: 90px;
+}
+
+.imágen-home{
+    margin-top: 20px;
+    box-sizing: border-box;
+    overflow: clip;
+    overflow: x auto;;
+    overflow: y auto;
+}
+
+.footer{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #F9D445;
+}
+
+/* Estilos específicos para Conocenos.html*/
+
+.Nosotros{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.Texto-Nosotros{
+    font-family: 'Rubik', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: justify;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Imágen-Conocenos{
+    margin-top: 90px;
+    text-align: center;
+}
+
+/* Estilos específicos para Niños-niñas.html*/
+
+.Juguetes{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+.Juguete-01{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.Imágen-Forky{
+    margin-top: 5%;
+    transition: transform 0.3s;
+}
+
+.Texto-Forky{
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+.Imágen-Barbie{
+    margin-top: 5%;
+    transition: transform 0.3s;
+}
+
+.Texto-Barbie{
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+.Imágen-Auto-Policia{
+    margin-top: 5%;
+    transition: transform 0.3s;
+}
+
+.Texto-Auto-Policia{
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+.Imágen-Perro-Bombero{
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+.Texto-Perro-Bombero{
+    margin-top: 4%;
+    font-weight: bold;
+}
+/* Estilos específicos para Adolescentes.html*/
+
+.Juegos{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+.Imágen-Generala{
+    margin-top: 5%;
+}
+
+.Texto-Generala{
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+.Imágen-Rummy-Burako{
+    margin-top: 5%;
+}
+
+.Texto-Rummy-Burako{
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+.Imágen-Estanciero{
+    margin-top: 5%;
+}
+
+.Texto-Estanciero{
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+.Imágen-Scrabble{
+    margin-top: 5%;
+}
+
+.Texto-Scrabble{
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+/* Estilos específicos para Contacto.html*/
+
+.Contacto{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin-top: 3%;
+}
+
+form{
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+form p {
+    text-align: center;
+}
+
+*{box-sizing: border-box;}
+
+form{
+    width: 400px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color:#ACDD9C;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    transition: 0.3s;
+}
+
+form:hover{
+    background-color:#F9D445;
+}
+
+form label{
+    width: 250px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+    width: 180px;
+    padding: 3px 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+form input[type="submit"]{
+    width: 100%;
+    padding: 8px 16px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    color: white;
+    background-color:#ACDD9C;
+}
